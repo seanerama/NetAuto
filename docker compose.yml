@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  webex:
+    build: ./webex
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./config.yaml:/app/config.yaml
+
+  solarwinds:
+    build: ./solarwinds
+    ports:
+      - "8002:8000"
+    volumes:
+      - ./config.yaml:/app/config.yaml
+
+  servicenow:
+    build: ./servicenow
+    ports:
+      - "8003:8000"
+    volumes:
+      - ./config.yaml:/app/config.yaml
+
+  dnacenter:
+    build: ./dnacenter
+    ports:
+      - "8004:8000"
+    volumes:
+      - ./config.yaml:/app/config.yaml
+
+  sshscp:
+    build: ./sshscp
+    ports:
+      - "8005:8000"
+    volumes:
+      - ./config.yaml:/app/config.yaml
+
+  central:
+    build: ./central
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./config.yaml:/app/config.yaml
+  
+  api-gateway:
+    image: traefik
+    command:
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--entrypoints.web.address=:80"
+    ports:
+      - "80:80"
+      - "8080:8080"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
