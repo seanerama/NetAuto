@@ -18,7 +18,7 @@ async def get_status():
 
 @app.post("/test")
 async def test(data: dict):
-    return data
+    return data, usr, cli_pw
 
 # Add specific endpoints for the service here
 
