@@ -16,7 +16,7 @@ async def get_status():
     return {"status": "Service is running"}
 
 
-@app.get("/test")
+@app.post("/test")
 async def test(data: dict):
     return data
 
