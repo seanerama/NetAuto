@@ -1,12 +1,16 @@
 import requests
 from requests.auth import HTTPBasicAuth
 import yaml
-
+import logging
 
 # Load the config file
 with open("config.yaml", "r") as file:
     config = yaml.safe_load(file)
 
+# Configure logging
+logging.basicConfig(filename='dnac_apis.log', level=logging.INFO, 
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 username = config['dna_center']['api_username']
 password = config['dna_center']['api_password']
@@ -33,13 +37,17 @@ def get_dna_center_token():
         response = requests.post(url, headers=headers, auth=HTTPBasicAuth(username, password), verify=False)  # `verify=False` disables SSL verification
         if response.status_code == 200:
             # The token is usually in the JSON response, so we parse it.
+            logger.info("Successfully obtained DNA Center token")
+            logger.info(response.json())
             token = response.json()['Token']  # Adjust the key based on the actual response structure
             return token
         else:
             print(f"Failed to obtain token: {response.status_code} - {response.text}")
+            logger.error(f"Failed to obtain token: {response.status_code} - {response.text}")
             return None
     except requests.RequestException as e:
         print(f"Request failed: {e}")
+        logger.error(f"Request failed: {e}")
         return None
     
 def fetch_devices_from_dnac(token, offset=1, limit=500):
