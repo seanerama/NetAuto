@@ -7,6 +7,8 @@ services:
       - "8001:8000"
     volumes:
       - ./config.yaml:/app/config.yaml
+    dns:
+      - 10.4.0.91
 
   solarwinds:
     build: ./solarwinds
@@ -14,6 +16,8 @@ services:
       - "8002:8000"
     volumes:
       - ./config.yaml:/app/config.yaml
+    dns:
+      - 10.4.0.91
 
   servicenow:
     build: ./servicenow
@@ -21,6 +25,8 @@ services:
       - "8003:8000"
     volumes:
       - ./config.yaml:/app/config.yaml
+    dns:
+      - 10.4.0.91
 
   dnacenter:
     build: ./dnacenter
@@ -28,6 +34,8 @@ services:
       - "8004:8000"
     volumes:
       - ./config.yaml:/app/config.yaml
+    dns:
+      - 10.4.0.91
 
   sshscp:
     build: ./sshscp
@@ -35,6 +43,8 @@ services:
       - "8005:8000"
     volumes:
       - ./config.yaml:/app/config.yaml
+    dns:
+      - 10.4.0.91
 
   central:
     build: ./central
@@ -42,7 +52,9 @@ services:
       - "8000:8000"
     volumes:
       - ./config.yaml:/app/config.yaml
-  
+    dns:
+      - 10.4.0.91
+
   api-gateway:
     image: traefik
     command:
@@ -54,3 +66,5 @@ services:
       - "8081:8089"
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
+    dns:
+      - 10.4.0.91
