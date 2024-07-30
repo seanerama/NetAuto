@@ -9,8 +9,8 @@ with open("config.yaml", "r") as file:
 
 
 username = config['dna_center']['api_username']
-password = config['network_devices']['api_password']
-host = config['network_devices']['base_url']
+password = config['dna_center']['api_password']
+host = config['dna_center']['base_url']
 
 
 
