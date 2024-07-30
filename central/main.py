@@ -30,3 +30,10 @@ def perform_test(service_name: str, data: dict):
         raise HTTPException(status_code=response.status_code, detail="Error With Test")
     
     return response.json()
+
+@app.get("/test_dnac_login")
+def test_dnac_login():
+    response = requests.get(f"{services['dnacenter']}/test_dnac_login")
+    if response.status_code != 200:
+        raise HTTPException(status_code=response.status_code, detail="Error fetching DNAC login")
+    return response.json()
