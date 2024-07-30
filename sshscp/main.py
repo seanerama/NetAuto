@@ -15,4 +15,10 @@ cli_pw = config['network_devices']['cli_password']
 async def get_status():
     return {"status": "Service is running"}
 
+
+@app.get("/test")
+async def test(data: dict):
+    return data
+
 # Add specific endpoints for the service here
+

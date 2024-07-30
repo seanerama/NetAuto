@@ -19,3 +19,14 @@ def get_service_status(service_name: str):
     if response.status_code != 200:
         raise HTTPException(status_code=response.status_code, detail="Error fetching status")
     return response.json()
+
+@app.post("/test/{service_name}")
+def perform_test(service_name: str, data: dict):
+    if service_name not in services:
+        raise HTTPException(status_code=404, detail="Service not found")
+    
+    response = requests.post(f"{services[service_name]}/test", json=data)
+    if response.status_code != 200:
+        raise HTTPException(status_code=response.status_code, detail="Error With Test")
+    
+    return response.json()
