@@ -12,3 +12,10 @@ ENV/
 .vscode/
 .DS_Store
 config.yaml
+routers.txt
+core_switches.txt
+acc_switches.txt
+dc_routers_xr.txt
+dc_routers_xe.txt
+dc_switches_nxos.txt
+dc_switches_xe.txt
