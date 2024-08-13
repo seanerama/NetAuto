@@ -76,8 +76,13 @@ network-management-app/
      api_username: "dna_api_user"
      api_password: "dna_api_password"
    ```
+2. Create the `.env` file and add your configuration details:
+   ```
+   DNS_SERVER_1=8.8.8.4
+   DNS_SERVER_2=8.8.8.8
+   ```
 
-3. Build and start the Docker containers:
+4. Build and start the Docker containers:
    ```bash
    docker-compose up --build
    ```
