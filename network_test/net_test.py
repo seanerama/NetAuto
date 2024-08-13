@@ -83,7 +83,6 @@ def send_pings(source, destinations):
             else:
                 results[destination_names[x]] = (None, None, None)
             x = x + 1
-        print(results)
         ssh.disconnect()
     except Exception as e:
         print(f"Failed to connect or send command to {source_ip}: {e}")
@@ -106,17 +105,79 @@ def main():
             headers.append(dest + '-max')
         writer.writerow(headers)
 
-        with ThreadPoolExecutor(max_workers=16) as executor:
+        with ThreadPoolExecutor(max_workers=36) as executor:
             futures = [executor.submit(send_pings, source, destinations) for source in sources]
             for future in futures:
                 source_name, source_ip, results = future.result()
                 row = [source_name, source_ip]
-                print(results)
                 row.extend(results.get('Primary-DC', (None, None, None)))
                 row.extend(results.get('Secondary-DC', (None, None, None)))
                 for dest in destinations:
                     row.extend(results.get(dest, (None, None, None)))
                 writer.writerow(row)
+
+def aggregate_test_daily():
+    # Directory where individual test CSVs are stored
+    directory = 'net_tests'
+    
+    # Initialize dictionaries to store the aggregate values
+    aggregate_data = {}
+    file_count = 0
+
+    # Iterate over all CSV files in the directory
+    for filename in os.listdir(directory):
+        if filename.endswith('.csv'):
+            file_count += 1
+            filepath = os.path.join(directory, filename)
+            
+            with open(filepath, 'r') as file:
+                reader = csv.reader(file)
+                headers = next(reader)  # Skip the header row
+                
+                for row in reader:
+                    source_name = row[0]
+                    source_ip = row[1]
+                    
+                    # Aggregate data for each destination
+                    for i in range(2, len(row), 3):  # Skip source_name and source_ip
+                        dest_name = headers[i].replace('-min', '')
+                        min_time = int(row[i]) if row[i] and row[i] != 'None' else None
+                        avg_time = int(row[i+1]) if row[i+1] and row[i+1] != 'None' else None
+                        max_time = int(row[i+2]) if row[i+2] and row[i+2] != 'None' else None
+
+                        if dest_name not in aggregate_data:
+                            aggregate_data[dest_name] = {'min': min_time, 'max': max_time, 'avg': avg_time, 'avg_count': 1}
+                        else:
+                            if min_time is not None and (aggregate_data[dest_name]['min'] is None or min_time < aggregate_data[dest_name]['min']):
+                                aggregate_data[dest_name]['min'] = min_time
+                            if max_time is not None and (aggregate_data[dest_name]['max'] is None or max_time > aggregate_data[dest_name]['max']):
+                                aggregate_data[dest_name]['max'] = max_time
+                            if avg_time is not None:
+                                if aggregate_data[dest_name]['avg'] is None:
+                                    aggregate_data[dest_name]['avg'] = avg_time
+                                else:
+                                    aggregate_data[dest_name]['avg'] += avg_time
+                                aggregate_data[dest_name]['avg_count'] += 1
+    
+    # Calculate the final average for each destination
+    for dest_name, data in aggregate_data.items():
+        if data['avg'] is not None:
+            data['avg'] = data['avg'] / data['avg_count']
+
+    # Write the aggregated data to a new CSV file
+    aggregated_filename = os.path.join(directory, 'daily_aggregate_' + datetime.datetime.now().strftime('%Y%m%d') + '.csv')
+    
+    with open(aggregated_filename, 'w', newline='') as file:
+        writer = csv.writer(file)
+        headers = ['Destination', 'Min Time', 'Avg Time', 'Max Time']
+        writer.writerow(headers)
+        
+        for dest_name, data in aggregate_data.items():
+            row = [dest_name, data['min'], data['avg'], data['max']]
+            writer.writerow(row)
+    
+    print(f"Aggregated data from {file_count} files into {aggregated_filename}")
+    return(f"Aggregated data from {file_count} files into {aggregated_filename}")
 
 if __name__ == "__main__":
     main()
