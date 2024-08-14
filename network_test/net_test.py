@@ -11,6 +11,17 @@ import os
 with open("config.yaml", "r") as file:
     config = yaml.safe_load(file)
 
+def get_time():
+    # Current date and time
+    now = datetime.datetime.now()
+    return now
+
+def get_time_delta(then, now):
+    # Calculate the difference between 'then' and 'now'
+    delta = then - now
+    return delta
+
+
 def generate_test_id():
     # Current date and time
     now = datetime.datetime.now()
@@ -67,7 +78,7 @@ def send_pings(source, destinations):
         x = 0
         for dest_ip in dests_ips:       
             #pinging once 
-            print(ssh.send_command(f'ping {dest_ip} source lo0', delay_factor=5, max_loops=1500, read_timeout=30))
+            ssh.send_command(f'ping {dest_ip} source lo0', delay_factor=5, max_loops=1500, read_timeout=30)
             output = ssh.send_command(f'ping {dest_ip} source lo0', delay_factor=5, max_loops=1500, read_timeout=30)
             success_rate = re.search(r'Success rate is (\d+) percent', output)
             response = re.findall(r'round-trip min/avg/max = \d+/\d+/\d+ ms', output)
@@ -90,6 +101,9 @@ def send_pings(source, destinations):
 
 def main():
     # Ensure the 'net_tests' directory exists
+    now = get_time()
+    print(now)
+
     os.makedirs('net_tests', exist_ok=True)
     # Generate the filename with the directory prepended
     filename = 'net_tests/' + generate_test_id() + '.csv'
@@ -113,6 +127,11 @@ def main():
                 for dest in destinations:
                     row.extend(results.get(dest, (None, None, None)))
                 writer.writerow(row)
+    then = get_time()
+    diff = get_time_delta(then, now)
+    print(then)
+    print(now)
+    print(diff)
 
 def aggregate_test_daily():
     # Directory where individual test CSVs are stored

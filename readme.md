@@ -126,15 +126,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or feedback, please reach out to [your-email@example.com](mailto:your-email@example.com).
+For any questions or feedback, please reach out to [sdmahoney01@gmail.com](mailto:sdmahoney01@gmail.com).
 ```
 
-### Instructions for Use
 
-1. **Customize the Project Structure Section**: Update the structure if you make any changes to the directory or file names.
-2. **Fill in the Clone URL**: Replace `https://github.com/your-username/network-management-app.git` with your actual repository URL.
-3. **Update Contact Information**: Replace `[your-email@example.com](mailto:your-email@example.com)` with your actual email address.
-4. **Add Additional Details**: Include more detailed usage instructions, examples of API calls, or any other relevant information about your services.
+
 
 This `README.md` file provides a comprehensive overview and instructions for setting up and using your network management application. If you need further customization or additional sections, feel free to ask!
 
