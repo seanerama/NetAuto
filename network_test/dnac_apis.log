@@ -1144,3 +1144,516 @@
 2024-08-13 14:37:09,965 - paramiko.transport - INFO - Authentication (password) successful!
 2024-08-13 14:37:10,156 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
 2024-08-13 14:37:10,240 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:28,928 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:28,928 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:28,986 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:28,991 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:28,997 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:28,998 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,001 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,002 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,002 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,006 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,009 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,011 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,015 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,015 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,016 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,017 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,018 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,019 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,019 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,020 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,026 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,029 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,029 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,030 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,030 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,032 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,037 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,038 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,046 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,067 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,078 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,100 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,104 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,141 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,141 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,159 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,166 - paramiko.transport - INFO - Auth banner: b'\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n'
+2024-08-14 07:53:29,181 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,256 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,321 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:29,383 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,394 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,396 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,397 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:53:29,398 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,400 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:53:29,414 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,427 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:53:29,433 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,434 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,435 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,436 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,441 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,449 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,450 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,451 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,453 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,454 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,471 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,472 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,473 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,478 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,483 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,485 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,487 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,500 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,503 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,504 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,510 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,510 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,512 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,517 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,526 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,532 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,532 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,534 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,534 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,537 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,538 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,542 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,559 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,564 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,585 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,588 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,589 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,590 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,591 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,610 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,615 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,615 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,623 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,639 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,640 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,648 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,653 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,659 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,670 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,672 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,677 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,751 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,808 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,827 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,838 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:29,887 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,953 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:29,971 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:30,361 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:30,629 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:35,851 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:36,198 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:36,278 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:36,739 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:37,199 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:37,351 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:38,265 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:38,699 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n          \r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:38,790 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:39,204 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:39,572 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:53:39,614 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:39,656 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:39,661 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:39,991 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:40,035 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:40,060 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:40,069 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:40,110 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:40,164 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:40,492 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:53:40,497 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:40,592 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:40,594 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:40,939 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:40,995 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:41,159 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:41,236 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:41,253 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:41,266 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:41,306 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:41,326 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:41,432 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:41,572 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:53:41,614 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:41,638 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:41,671 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:41,689 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:41,700 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:41,765 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:41,771 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:41,773 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:41,869 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:41,937 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:42,061 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:42,102 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:42,116 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:42,162 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:42,561 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:42,718 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:44,773 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:45,173 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:53:45,301 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:46,059 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:46,390 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:46,452 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:47,666 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:47,784 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:48,098 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:48,126 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:48,189 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:48,251 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:48,338 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:48,412 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:48,566 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:48,731 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:48,842 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:48,907 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:49,665 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:49,918 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:50,025 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:50,214 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:53:50,228 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:50,281 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:50,481 - paramiko.transport - INFO - Connected (version 1.99, client Cisco-1.25)
+2024-08-14 07:53:50,876 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n'
+2024-08-14 07:53:51,023 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:51,658 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:51,996 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:52,096 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:52,196 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:52,730 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:53,121 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:53,725 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:53,980 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:54,141 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:54,211 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:54,436 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:54,555 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:56,737 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:57,106 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:57,207 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:57,563 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:57,715 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:57,888 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,057 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,062 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,112 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,124 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:58,142 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,172 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,173 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,189 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:58,197 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,216 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,260 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,283 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:58,318 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,334 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:58,361 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,383 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n'
+2024-08-14 07:53:58,441 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:58,458 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:58,461 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:58,505 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:58,505 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:58,536 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:58,539 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:58,544 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:58,562 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:53:58,573 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,628 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:58,645 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:58,657 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:58,676 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:58,677 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:58,677 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:58,725 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:58,729 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:58,736 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:53:58,828 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:58,837 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:58,873 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:58,881 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:58,891 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:59,023 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:59,028 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:59,062 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:59,134 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:59,179 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:59,180 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:59,314 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:59,339 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:59,442 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:59,495 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:59,545 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:53:59,631 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:59,641 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:53:59,656 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:59,775 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:53:59,865 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:00,068 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:54:00,198 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:00,225 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:00,328 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:02,182 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:02,611 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:02,774 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:03,515 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:03,973 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:04,140 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:05,099 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:05,658 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:05,790 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:06,170 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:06,175 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:06,300 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:06,443 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:06,586 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:06,597 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:06,657 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:06,721 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:07,195 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:07,532 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:07,643 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:07,779 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:07,961 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:08,105 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:08,556 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:08,599 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:08,724 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:08,970 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:54:09,022 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:09,099 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:09,113 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:09,120 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:09,159 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:09,235 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:09,520 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:09,530 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:09,599 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:09,762 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:09,776 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:10,041 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:10,167 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:54:10,167 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:10,213 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:10,271 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:10,286 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:10,359 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:10,469 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:10,730 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:10,819 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:10,934 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:10,940 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:11,089 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:11,194 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:11,201 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:11,342 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:11,655 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:11,803 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:12,760 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:13,193 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:13,339 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:14,315 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:14,741 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:14,821 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:15,087 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:15,246 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:15,541 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:54:15,721 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:15,730 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:15,735 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:15,897 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:16,140 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:16,216 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:17,467 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:17,886 - paramiko.transport - INFO - Auth banner: b'\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n'
+2024-08-14 07:54:17,996 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:18,304 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:18,729 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:18,825 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:18,902 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:19,324 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:19,334 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:19,396 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:19,400 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:19,807 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:19,857 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:19,991 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:20,005 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:20,730 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:21,173 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:21,272 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:21,677 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:22,136 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:22,182 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:22,240 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:22,491 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:22,618 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:22,711 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:22,877 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:54:22,958 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:25,394 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:25,728 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:25,794 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:25,840 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:26,280 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:26,353 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:26,403 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:26,850 - paramiko.transport - INFO - Auth banner: b'C\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n'
+2024-08-14 07:54:26,979 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:27,386 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:27,602 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:27,687 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:27,821 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:27,882 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:27,909 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:27,966 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:28,054 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:28,127 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:28,138 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:28,155 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:28,258 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:28,308 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:28,377 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:28,388 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:28,389 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:28,490 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:28,543 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:28,699 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:28,758 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:54:28,831 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:28,909 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:29,005 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:29,110 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:29,507 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:29,520 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:29,884 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:29,975 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:29,999 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:31,903 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:32,339 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:32,433 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:32,731 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:33,170 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:33,271 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:34,721 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:35,179 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:35,235 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:35,373 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:35,625 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:54:35,674 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:35,894 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:36,382 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:36,549 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:36,828 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:37,272 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:37,404 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:37,476 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:37,552 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:37,592 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:37,603 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:37,784 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:37,822 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:37,919 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:38,023 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:54:38,066 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:38,084 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:38,158 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:38,193 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:38,320 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:38,401 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:38,407 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:38,460 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:38,946 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:39,215 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:39,301 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:39,610 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:39,625 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:39,673 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:39,681 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:39,712 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:39,799 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:40,052 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:40,140 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:40,148 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:40,659 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:40,861 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:41,339 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:41,390 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:41,794 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:41,824 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:41,867 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:41,988 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:42,021 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:42,238 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:54:42,308 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:42,380 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:42,784 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:42,916 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:43,026 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:43,226 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:43,425 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:43,533 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:43,662 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:43,782 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:43,802 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:44,125 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:44,180 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:44,311 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:44,650 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:44,770 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:44,853 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:44,902 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:45,114 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:45,225 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:45,240 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:54:45,324 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:45,878 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:45,879 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:45,897 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:46,235 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:54:46,272 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:54:46,284 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:46,342 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:46,348 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:46,490 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:47,131 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:47,338 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:47,419 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:47,480 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:47,646 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:47,874 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:47,896 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:47,941 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:47,963 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:47,965 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:48,018 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:48,032 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:48,412 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:48,517 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:48,688 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:48,766 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:49,143 - paramiko.transport - INFO - Auth banner: b'\r\n\r\n\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n\r\n\r\n'
+2024-08-14 07:54:49,214 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:49,687 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:49,926 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:50,082 - paramiko.transport - INFO - Connected (version 2.0, client Cisco-1.25)
+2024-08-14 07:54:50,145 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:50,258 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:50,371 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw.  All activity regarding this equipment and connected networks is\r\nmonitored and logged.  Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:50,471 - paramiko.transport - INFO - Authentication (password) successful!
+2024-08-14 07:54:50,508 - paramiko.transport - INFO - Auth banner: b'\r\n\r\nWARNING: Unauthorized access to HDR, Inc. network equipment is prohibited by\r\nlaw. All activity regarding this equipment and connected networks is\r\nmonitored and logged. Persons found in violation of this policy will be\r\nprosecuted to the full extent allowable by governing regulations.\r\n\r\n'
+2024-08-14 07:54:50,588 - paramiko.transport - INFO - Authentication (password) successful!

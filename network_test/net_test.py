@@ -19,7 +19,7 @@ def generate_test_id():
     return test_id
 
 # Configure logging
-logging.basicConfig(filename='dnac_apis.log', level=logging.INFO, 
+logging.basicConfig(filename='net-test.log', level=logging.INFO, 
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
