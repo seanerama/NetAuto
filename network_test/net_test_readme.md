@@ -22,8 +22,8 @@ pip install netmiko pyyaml
 Configuration
 The script relies on a config.yaml file for sensitive information, such as device credentials and email settings. Here is an example configuration:
 
-yaml
-Copy code
+```yaml
+
 network_devices:
   cli_username: "your_username"
   cli_password: "your_password"
@@ -31,6 +31,7 @@ network_devices:
 email:
   from_email: "your_email@example.com"
   send_server: "smtp.example.com"
+```
 Setup
 test_destinations.txt
 This file should contain a list of IP addresses or hostnames that the script will ping from each network device. Each line should contain one IP address or hostname.
