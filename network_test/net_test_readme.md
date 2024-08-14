@@ -98,8 +98,7 @@ Contributions are welcome! Please submit a pull request or open an issue to disc
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-vbnet
-Copy code
+
 
 This `README.md` provides a comprehensive overview of how to set up, run, and understand the script, including how users should create their own `test_destinations.txt` and `office_wan_devices.txt` files. It also explains the script's dynamic behavior in detecting data centers and aggregating results.
 
