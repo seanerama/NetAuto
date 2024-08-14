@@ -65,12 +65,10 @@ def send_pings(source, destinations):
             dests_ips.append(dest)
             destination_names.append(dest)
         x = 0
-        for dest_ip in dests_ips:
-            
+        for dest_ip in dests_ips:       
             #pinging once 
-            ssh.send_command(f'ping {dest_ip} repeat 5', delay_factor=5, max_loops=1500, read_timeout=30)
-            output = ssh.send_command(f'ping {dest_ip} repeat 5', delay_factor=5, max_loops=1500, read_timeout=30)
-
+            print(ssh.send_command(f'ping {dest_ip} source lo0', delay_factor=5, max_loops=1500, read_timeout=30))
+            output = ssh.send_command(f'ping {dest_ip} source lo0', delay_factor=5, max_loops=1500, read_timeout=30)
             success_rate = re.search(r'Success rate is (\d+) percent', output)
             response = re.findall(r'round-trip min/avg/max = \d+/\d+/\d+ ms', output)
 
@@ -98,14 +96,14 @@ def main():
     with open(filename, 'w', newline='') as file:
         writer = csv.writer(file)
         # Adjust the header to include SourceName,SourceIP,'Primary-DC-min', 'Primary-DC-max', 'Primary-DC-avg', 'Secondary-DC-min', 'Secondary-DC-max', 'Secondary-DC-avg' then for each destination in destinations add min max and avg
-        headers = ['Primary-DC-min', 'Primary-DC-max', 'Primary-DC-avg', 'Secondary-DC-min', 'Secondary-DC-max', 'Secondary-DC-avg']
+        headers = ['Source-IP', 'Name', 'Primary-DC-min', 'Primary-DC-max', 'Primary-DC-avg', 'Secondary-DC-min', 'Secondary-DC-max', 'Secondary-DC-avg']
         for dest in destinations:
             headers.append(dest + '-min')
             headers.append(dest + '-avg')
             headers.append(dest + '-max')
         writer.writerow(headers)
 
-        with ThreadPoolExecutor(max_workers=36) as executor:
+        with ThreadPoolExecutor(max_workers=40) as executor:
             futures = [executor.submit(send_pings, source, destinations) for source in sources]
             for future in futures:
                 source_name, source_ip, results = future.result()
