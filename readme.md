@@ -75,6 +75,9 @@ network-management-app/
      base_url: "https://dnacenter.example.com"
      api_username: "dna_api_user"
      api_password: "dna_api_password"
+   email:
+     send_server: 'smtp.domain.com'
+     from_email: 'netauto-test@domain.com'
    ```
 2. Create the `.env` file and add your configuration details:
    ```

@@ -19,3 +19,7 @@ dc_routers_xr.txt
 dc_routers_xe.txt
 dc_switches_nxos.txt
 dc_switches_xe.txt
+office_wan_devices.txt
+test_destinations.txt
+*.csv
+*.log
