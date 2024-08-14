@@ -1,7 +1,3 @@
-
-
-markdown
-Copy code
 # Network Latency Testing Script
 
 This Python script is designed to test network latency between various network devices and multiple destinations. It dynamically identifies the primary and secondary data centers (DCs) for each device and pings them, along with other specified destinations, to gather and aggregate network performance data.
@@ -22,6 +18,7 @@ You can install the necessary Python packages using:
 
 ```bash
 pip install netmiko pyyaml
+```
 Configuration
 The script relies on a config.yaml file for sensitive information, such as device credentials and email settings. Here is an example configuration:
 
@@ -40,18 +37,21 @@ This file should contain a list of IP addresses or hostnames that the script wil
 
 Example:
 
-Copy code
+```bash
 8.8.8.8
 1.1.1.1
 10.0.0.1
+```
 office_wan_devices.txt
 This file should list the devices to be tested, with each line containing the device name and its management IP address, separated by a space.
 
 Example:
 
-Copy code
+```bash
 HQ-Router-1 192.168.1.1
 Branch-Router-2 192.168.2.1
+```
+
 Note: These files are included in .gitignore to prevent sensitive information from being accidentally committed to version control. Users will need to create their own versions of these files.
 
 How the Script Works
@@ -69,21 +69,23 @@ The script generates a CSV file every time it runs, storing the results for that
 Running the Script
 You can run the script manually by executing:
 
-bash
-Copy code
+```bash
+
 python net_test.py
+```
 To schedule the script to run every 15 minutes, you can use a cron job (on Linux):
 
-bash
-Copy code
+```bash
+
 */15 * * * * /usr/bin/python3 /path/to/net_test.py
+```
 Aggregating Daily Results
 To aggregate all the CSV files generated during the day into a single report, you can call the aggregate_test_daily() function:
 
-python
-Copy code
+```python
 from net_test import aggregate_test_daily
 aggregate_test_daily()
+```
 This will create a daily_aggregate_YYYYMMDD.csv file in the net_tests directory, summarizing the network performance data for the entire day.
 
 Logging
