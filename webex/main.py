@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 import requests
 import yaml
 
@@ -20,7 +20,13 @@ async def get_status():
 room_id = 'roomid-for-testing-here'
 
 @app.post("/send_webex_message")
-async def send_webex_message(message: str):
+async def send_webex_message(request: Request):
+    data = await request.json()  # Parse the JSON body
+    message = data.get("message")
+    
+    if not message:
+        raise HTTPException(status_code=400, detail="Message field is required.")
+    
     payload = {
         "room_id": room_id,
         "message": message
