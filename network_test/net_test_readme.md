@@ -42,6 +42,8 @@ Example:
 8.8.8.8
 1.1.1.1
 10.0.0.1
+google.com
+domain.sharepoint.com
 ```
 office_wan_devices.txt
 This file should list the devices to be tested, with each line containing the device name and its management IP address, separated by a space.

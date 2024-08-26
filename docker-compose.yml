@@ -10,6 +10,9 @@ services:
     dns:
       - ${DNS_SERVER_1}
       - ${DNS_SERVER_2}
+    networks:
+      - default
+
 
   solarwinds:
     build: ./solarwinds
@@ -20,6 +23,9 @@ services:
     dns:
       - ${DNS_SERVER_1}
       - ${DNS_SERVER_2}
+    networks:
+      - default
+
 
   servicenow:
     build: ./servicenow
@@ -30,6 +36,9 @@ services:
     dns:
       - ${DNS_SERVER_1}
       - ${DNS_SERVER_2}
+    networks:
+      - default
+
 
   dnacenter:
     build: ./dnacenter
@@ -40,6 +49,9 @@ services:
     dns:
       - ${DNS_SERVER_1}
       - ${DNS_SERVER_2}
+    networks:
+      - default
+
 
   sshscp:
     build: ./sshscp
@@ -50,6 +62,9 @@ services:
     dns:
       - ${DNS_SERVER_1}
       - ${DNS_SERVER_2}
+    networks:
+      - default
+
 
   central:
     build: ./central
@@ -60,7 +75,11 @@ services:
     dns:
       - ${DNS_SERVER_1}
       - ${DNS_SERVER_2}
+    networks:
+      - default
 
+
+  
   api-gateway:
     image: traefik
     command:
@@ -75,3 +94,9 @@ services:
     dns:
       - ${DNS_SERVER_1}
       - ${DNS_SERVER_2}
+    networks:
+      - default
+
+networks:
+  default:
+    driver: bridge

@@ -37,6 +37,7 @@ logger = logging.getLogger(__name__)
 user = config['network_devices']['cli_username']
 pwd = config['network_devices']['cli_password']
 
+
 def get_destinations(filename='test_destinations.txt'):
     """Read a list of IPs from a text file."""
     with open(filename, 'r', encoding='utf-8-sig') as dest_file:
@@ -49,11 +50,33 @@ def get_sources(filename='office_wan_devices.txt'):
         sources = [line.strip() for line in source_file]
     return sources
 
+def get_single_DC_sites(filename='single_DC_sites.txt'):
+    # Initialize an empty dictionary
+    single_dc_sites = {}
+    # Open the file for reading
+    with open(filename, 'r') as file:
+        # Read each line in the file
+        for line in file:
+            # Strip any leading/trailing whitespace (like newlines)
+            line = line.strip()
+            # Split the line into site and IP address
+            site, dc_ip_address, source_int = line.split()
+            # Add to dictionary, with site as the key and ip_address as the value
+            single_dc_sites[site] = {}
+            single_dc_sites[site]['DC'] = dc_ip_address
+            single_dc_sites[site]['source_int'] = source_int
+    
+    # Return the dictionary after processing all lines
+    print(single_dc_sites)
+    return single_dc_sites
+
+
 destinations = get_destinations()
 sources = get_sources()
+single_dc_sites = get_single_DC_sites()
 
 def send_pings(source, destinations):
-    destination_names = ['Primary-DC', 'Secondary-DC']
+    destination_names = ['Primary-DC', 'Secondary-DC']  
     source_name, source_ip = source.split(' ')
     cisco_router = {
         'device_type': 'cisco_ios', 'host': source_ip, 'username': user,
@@ -63,13 +86,20 @@ def send_pings(source, destinations):
     results = {}
     try:
         ssh = ConnectHandler(**cisco_router)
+
+        if source_ip in single_dc_sites:
+            primary_dc_ip = single_dc_sites[source_ip]['DC']
+            secondary_dc_ip = single_dc_sites[source_ip]['DC']
+            source_int = single_dc_sites[source_ip]['source_int']
+        else:
         #get primary and secondary dcs
-        def_route = ssh.send_command('show ip route 0.0.0.0 | i , from')
-        primary_dc = re.findall(r'\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}', def_route)
-        primary_dc_ip = primary_dc[0]
-        sec_route = ssh.send_command('show ip bgp 0.0.0.0 | i from 1')
-        ips = re.findall(r' \d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}', sec_route)
-        secondary_dc_ip = [ip for ip in ips if ip != primary_dc_ip][0]
+            def_route = ssh.send_command('show ip route 0.0.0.0 | i , from')
+            primary_dc = re.findall(r'\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}', def_route)
+            primary_dc_ip = primary_dc[0]
+            sec_route = ssh.send_command('show ip bgp 0.0.0.0 | i from 1')
+            ips = re.findall(r' \d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}', sec_route)
+            secondary_dc_ip = [ip for ip in ips if ip != primary_dc_ip][0]
+            source_int = 'lo0'
         dests_ips.append(primary_dc_ip)
         dests_ips.append(secondary_dc_ip)
         for dest in destinations:
@@ -78,8 +108,10 @@ def send_pings(source, destinations):
         x = 0
         for dest_ip in dests_ips:       
             #pinging once 
-            ssh.send_command(f'ping {dest_ip} source lo0', delay_factor=5, max_loops=1500, read_timeout=30)
-            output = ssh.send_command(f'ping {dest_ip} source lo0', delay_factor=5, max_loops=1500, read_timeout=30)
+          
+            print(ssh.send_command(f'ping {dest_ip} source {source_int}', delay_factor=5, max_loops=1500, read_timeout=30))
+            
+            output = ssh.send_command(f'ping {dest_ip} source {source_int}', delay_factor=5, max_loops=1500, read_timeout=30)
             success_rate = re.search(r'Success rate is (\d+) percent', output)
             response = re.findall(r'round-trip min/avg/max = \d+/\d+/\d+ ms', output)
 
@@ -117,7 +149,7 @@ def main():
             headers.append(dest + '-max')
         writer.writerow(headers)
 
-        with ThreadPoolExecutor(max_workers=40) as executor:
+        with ThreadPoolExecutor(max_workers=30) as executor:
             futures = [executor.submit(send_pings, source, destinations) for source in sources]
             for future in futures:
                 source_name, source_ip, results = future.result()
@@ -195,6 +227,8 @@ def aggregate_test_daily():
     
     print(f"Aggregated data from {file_count} files into {aggregated_filename}")
     return(f"Aggregated data from {file_count} files into {aggregated_filename}")
+
+
 
 if __name__ == "__main__":
     main()
